@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\ModularMonolith.Modules.MyModule1\ModularMonolith.Modules.MyModule1.csproj" />
+    <ProjectReference Include="..\Modules\ModularMonolith.Modules.MyModule2\ModularMonolith.Modules.MyModule2.csproj" />
+  </ItemGroup>
+
+
+</Project>
